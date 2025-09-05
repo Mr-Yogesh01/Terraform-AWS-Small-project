@@ -10,3 +10,12 @@ This project deploys an **EC2 instance** on AWS using Terraform.
 2. Configure AWS CLI:
    ```bash
    aws configure
+
+terraform init
+
+terraform plan
+
+terraform apply -auto-approve
+
+terraform output ec2_public_ip
+
